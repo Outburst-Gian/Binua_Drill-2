@@ -1,0 +1,70 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rate a Movie</title>
+<style>
+    body{
+        background-color: #f0f0f0;
+    }
+    #movie{
+        width: 300px;
+        height: 200px;
+    }
+    div{
+        background-color: rgb(255, 185, 50);
+        border: 2px solid black;
+        padding: 20px;
+        margin: 20px;
+    }
+</style>
+</head>
+<body>
+    <img src="https://cdn.creativefabrica.com/2022/02/14/cinema-logo-design-templates-vector-Graphics-25185506-1-1-580x386.png">
+    <h1>Rate a Movie</h1>
+    <h2>Tell us a movie and rate it!</h2>
+    <div>
+        <form>
+            <input type="text" name="movie" id="movie" placeholder="Movie Name">
+            <br>
+            <label for="movie" id="movie-label">Title of the movie</label>
+        </form>
+    </div>
+</html>
+    <div>
+        <form>
+            <label>Genres (select all that apply):</label>
+            <br>
+            <input type="checkbox" id="action" name="genres" value="action">
+            <label for="action">Action</label>
+            <br>
+            <input type="checkbox" id="comedy" name="genres" value="comedy">
+            <label for="comedy">Comedy</label>
+            <br>
+            <input type="checkbox" id="drama" name="genres" value="drama">
+            <label for="drama">Drama</label>
+            <br>
+            <label>Ratings:</label>
+            <br>
+            <input type="radio" id="rating1" name="rating" value="1">
+            <label for="rating1">1</label>
+            <br>
+            <input type="radio" id="rating2" name="rating" value="2">
+            <label for="rating2">2</label>
+            <br>
+            <input type="radio" id="rating3" name="rating" value="3">
+            <label for="rating3">3</label>
+            <br>
+            <input type="radio" id="rating4" name="rating" value="4">
+            <label for="rating4">4</label>
+            <br>
+            <input type="radio" id="rating5" name="rating" value="5">
+            <label for="rating5">5</label>
+            <br>
+            <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Additional comments..."></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
